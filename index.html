@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- MATERIAL ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><b>Williams Oditi</b></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <!-- <li class="nav__item"><a href="" class="nav__link">Resume</a></li> -->
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title" id="intro"><span>Hello!</span></h1>
+                <h3 class="home_title text-white mt-5" id="welcome">Am <strong>Williams Oditi,</strong><br>I bring ideas
+                    to life with web technologies.</h3>
+
+                <div class="home__scroll" id="welcome">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Discover</a>
+                </div>
+
+                <img src="./assets/img/me.png" alt="" class="home__img">
+            </div>
+        </section>
+        <button id="btnScrollToTop">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+
+        <!--===== ABOUT =====-->
+        
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="img-fluid">
+                    <img src="./assets/img/me.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I am Williams Oditi</h2>
+                    <span class="about__profession">Full stack web developer</span>
+                    <p class="about__text">From Nairobi,Kenya. I am dedicated to the quest of developing solutions that
+                        leverage on best practice technologies to deliver over the top user experience and interface by
+                        focusing on writing clean, elegant and efficent code. Here is where efficiency and excellency
+                        meet.</p>
+
+                    <div>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                            href="https://twitter.com/OditiWilliams" role="button" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                            href="mailto:williamsoditi99@gmail.com" role="button" target="_blank"><i
+                                class="fab fa-google"></i></a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                            href="https://www.linkedin.com/in/williams-oditi/" role="button" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <!-- Github -->
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                            href="https://github.com/Williamsoditi" role="button" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">
+                        <img src="./assets/img/html-5.png" id="new" class="img-fluid">
+                    </span>
+                    <span class="skills__name">
+                        <img src="./assets/img/css.png" id="new" class="img-fluid">
+                    </span>
+                    <span class="skills__name">
+                        <img src="./assets/img/js.png" id="new" class="img-fluid">
+                    </span>
+                    <span class="skills__name">
+                        <img src="./assets/img/python.png" id="new" class="img-fluid">
+                    </span>
+                    <span class="skills__name">
+                        <img src="./assets/img/postgre.png" id="new" class="img-fluid">
+                    </span>
+
+                    <h5 class="skills__subtitle">Frameworks</h5>
+                    <span class="skills__name-new">Bootstrap</span>
+                    <span class="skills__name-new">Angular</span>
+                    <span class="skills__name-new">Node.js</span>
+                    <span class="skills__name-new">Flask</span>
+                    <span class="skills__name-new">Django</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name-new">Figma</span>
+                    <span class="skills__name-new">Canva</span>
+                    <span class="skills__name-new">Miro</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="./assets/img/new_skill.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio__container bd-grid">
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/pizza.jpg" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://williamsoditi.github.io/Pizza-hub/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza-Hub</h5>
+                        <hr>
+                        <p class="card-text">A web application where customers order different sizes of pizzas with one
+                            or more toppings, with a delivery option for customers. </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/the_block.png" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://oditi-jirani.herokuapp.com/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">The - Block</h5>
+                        <hr>
+                        <p class="card-text">A neighborhood mapping application where a user must signup, join a hood,
+                            and once in a hood, they can see businesses and posts in only that hood</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/instagram.png" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://gram-lite.herokuapp.com/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Instagram-Lite</h5>
+                        <hr>
+                        <p class="card-text">A clone of the popular Instagram application. Users are able to upload
+                            images, follow other users to see their photos, like and comment on photos.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/kim's.png" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://kim-feedback.herokuapp.com/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kim's Feedback Forms</h5>
+                        <hr>
+                        <p class="card-text">Want to give feedback? This is an application used to manage all your
+                            feedback.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/SayCheese.png" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://oditi-gallery.herokuapp.com/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Say-Cheese</h5>
+                        <hr>
+                        <p class="card-text">An application for users to display their favorite and beautiful photos and
+                            copy the image link for sharing</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple portfolio__img" data-mdb-ripple-color="light">
+                        <img src="./assets/img/Awwwards.png" class="img-fluid" />
+                        <div class="portfolio__link">
+                            <a href="https://mambas-awwwards.herokuapp.com/" class="portfolio__link-name"
+                                target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Awwwards</h5>
+                        <hr>
+                        <p class="card-text">A clone of the popular <b>Awwwards</b> application used as a rating
+                            platform for software developers</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h4 class="contact_text text-center">Looking forward to hearing from you.</h4>
+                    <hr>
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">williamsoditi99@gmail.com</span>
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+254 791-438-867</span>
+
+                    <h3 class="contact__subtitle">ADDRESS</h3>
+                    <span class="contact__text">P.O. BOX 54578-00200 NAIROBI</span>
+                </div>
+
+                <form action="https://formspree.io/f/mqknonwj" method="post" class="contact__form" target="_blank">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input" name="text" required>
+                        <input type="email" placeholder="Email" class="contact__input" name="email" required>
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="8" class="contact__input" placeholder="Enter comments"
+                        style="margin-top: -1vw;" name="comment" required></textarea>
+
+                    <input type="submit" value="Submit" class="contact__button" style="margin-top: -2vw;">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer>
+        <div class="text-center p-3 foot" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span>All rights reserved :</span>&nbsp;
+            <span id="date">Copyright</span>
+            <a class="text-dark" href="/"><strong>Williams Oditi</strong></a>
+        </div>
+    </footer>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
