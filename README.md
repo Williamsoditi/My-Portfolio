@@ -13,7 +13,7 @@ This project displays my personal portfolio.
 ## Project resources
 The following is a live-link to the project's site
 
-[Click here](http://williamsoditi.github.io/Williams-Portfolio/)
+[Click here](https://williamsoditi.github.io/My-Portfolio/)
 
 ## Installation process
 * A computer, smartphone or a tablet
