@@ -21,7 +21,7 @@ The following is a live-link to the project's site
 ## Technologies used
 + HTML - This was used to structure the webpages.
 + CSS - This was used to style the webpage,
-+ SCSS - Extra pae styling.
++ SCSS - Extra page styling.
 + JAVASCRIPT - This was used to make the webpage interactive.
 ## Contact info and details
 * Company e-mail: `williamsoditi99@gmail.com`
