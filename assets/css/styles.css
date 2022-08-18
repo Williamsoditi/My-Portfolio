@@ -1,9 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*===== VARIABLES CSS =====*/
 p{
-    /* font-family: 'Anek Malayalam', sans-serif; */
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'The Nautigal', cursive;} */
 }
 h1,h2,h3,h4,h5{
     font-family: 'Poppins', sans-serif;
@@ -196,7 +194,7 @@ img{
     overflow: hidden;
 }
 .home__container{
-    height: calc(100vh - var(--header-height));
+    height: calc(150vh - var(--header-height));
     row-gap: 5rem;
 }
 .home__title{
@@ -227,7 +225,7 @@ img{
     width: 295px;
 }
 #welcome{
-    font-size: 1.5vw;
+    font-size: 3vw!important;
 }
 
 /* ===== ABOUT =====*/
